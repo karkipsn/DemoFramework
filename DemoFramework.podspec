@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DemoFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "SMall framework to carry of operations of DemoFramework."
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # spec.source       = { :git => "http://EXAMPLE/DemoFramework.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
+  spec.source       = { :git => "https://github.com/karkipsn/DemoFramework.git", :tag => "#{spec.version}" }
+  # spec.source       = { :http => 'file:' + __dir__ + "/" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
